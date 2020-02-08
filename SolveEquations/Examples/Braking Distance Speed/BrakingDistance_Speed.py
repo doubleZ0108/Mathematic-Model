@@ -11,7 +11,7 @@
 '''
 
 import numpy as np
-from SolveEquations.Algorithms.Genetic import Genetic
+from SolveEquations.Algorithms.NumericGeneticAlgorithm import NGA
 
 data = np.loadtxt('data.txt')
 v, d = data[:,0], data[:,1]
@@ -32,5 +32,5 @@ if __name__ == '__main__':
     k = mathematic()
     print('数学理论推导结果 ', k)
 
-    k = Genetic(f, 0, max_times=100)
+    k = NGA(f, 0, max_times=100)
     print('遗传算法结果', k)

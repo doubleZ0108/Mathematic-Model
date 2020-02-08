@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-@program: Genetic.py
+@program: NumericGeneticAlgorithm.py
 
 @description: 遗传算法寻优
 
@@ -24,7 +24,7 @@ def f1(x):
 def f2(x):
     return x**3 - 2*x**2 + 1
 
-def Genetic(fx, *args, max_times=100):
+def NGA(fx, *args, max_times=100):
     """
     遗传算法计算零点
     :param fx: 函数作为函数的参数
