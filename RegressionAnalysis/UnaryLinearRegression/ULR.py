@@ -19,7 +19,7 @@ class ULR:
         self.X = X
         self.Y = Y
 
-    def modelling(self):
+    def model(self):
         Xt = self.X.T
         XtX = np.dot(Xt, self.X)
         XtXinv = np.linalg.inv(XtX)
@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
     '''调用ULR类'''
     ulr = ULR(X, Y)
-    ulr.modelling()
+    ulr.model()
     print(ulr.getCoef())
 
     '''回归预测'''
