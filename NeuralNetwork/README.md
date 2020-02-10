@@ -48,6 +48,8 @@ y = f(x1, x2, ..., xn)，y与xi之间呈非线性
 
 ![image.png](https://upload-images.jianshu.io/upload_images/12014150-1b58e9fc5388d43b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+------
+
 ## 非线性分类问题
 
 ### 数据预处理
@@ -96,4 +98,29 @@ y = f(x1, x2, ..., xn)，y与xi之间呈非线性
 from sklearn.model_selection import train_test_split
 Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=.1)
 ```
+
+### 分类报告
+
+- precision精度：正确预测的个数 / 被预测为正集的个数
+  $$
+  TP/(TP + FP)
+  $$
+
+  - TP: true positive
+  - FP: false positive
+
+- recall召回率：正确预测的个数 / 预测个数
+  $$
+  TP / (TP + FN)
+  $$
+
+  - FN: false nagative
+
+- F1得分：2 \* 精度 \* 召回率 / （精度 + 召回率）
+
+- FN：预测值为负集，真值为正集的个数
+
+- FP：预测值为正集，真值为负集的个数
+
+------
 
