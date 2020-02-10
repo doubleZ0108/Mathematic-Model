@@ -154,3 +154,11 @@ prob=clf.predict_proba(X_test) # 预测概率
     - effective_learning_rate = learning_rate_init / pow(t, power_t)
   - `adaptive`: 只要训练损耗在下降，就保持学习率为learning_rate_init不变，当连续两次不能降低训练损耗或验证分数停止升高至少to1时，将当前学习率厨艺5
 - `max_iter`: 最大迭代次数
+
+## MLPRegressor | 神经网络回归
+
+```python
+from sklearn.neural_network import MLPRegressor clf=MLPClassifier( hidden_layer_sizes=(100,), alpha=1e-5, random_state=1) # 很多参数
+clf.fit(X_train, y_train) yhat=clf.predict(X_test) # 预测值
+```
+
