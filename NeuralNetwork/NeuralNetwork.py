@@ -34,9 +34,9 @@ class NeuralNetwork:
         for i in range(len(layers)-1):      # -1~1间的随机数
             if i==0:
                 w = 2*np.random.random((layers[0]+1, layers[1]))-1
-                self.weights.append(2*0.5)
+                self.weights.append(w*0.5)
             else:
-                w = w*np.random.random((layers[i], layers[i+1]))-1
+                w = 2*np.random.random((layers[i], layers[i+1]))-1
                 self.weights.append(w*0.5)
 
     def fit(self,X,y,learning_rate=0.2,epochs=10000):
@@ -69,7 +69,7 @@ class NeuralNetwork:
                 delta = np.atleast_2d(deltas[i])    # 向量转成一行的矩阵
                 self.weights[i] += learning_rate * layer.T.dot(delta)
 
-    def predit(self, x):
+    def predict(self, x):
         """
         预测
         :param x: 一组预测样本
