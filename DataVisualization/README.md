@@ -97,7 +97,54 @@ plt.bar(x, data, alpha=.5, color='b', width=0.2, align='center')
 
 ## 子窗口
 
-`plt.subplot(row, col, index, figsize=(8,6), dpi=100)`
+```python
+plt.subplot(row, col, index)
+
+
+fig, axes = plt.subplots(figsize=(8,6), dpi=100)
+axes.plot(x,y)
+axes.set_xlabel('')
+axes.set_title('')
+```
 
 - figsize：800\*600像素
 - dpi：每英寸100个点
+
+------
+
+## 三维图
+
+```python
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+fig = plt.figure()
+ax = Axes3D(fig)
+```
+
+### trisurf
+
+以小三角形构成曲面单元，xyz是等长的1D array
+
+```python
+x, y, z = np.random.randint(1,10,5), np.random.randint(1,10,5), np.random.randint(1,10,5)
+ax.plot_trisurf(x,y,z)
+```
+
+### surface
+
+使用np.meshgrid产生数据，数据都是二维矩阵
+
+```python
+x_surf, y_surf = np.arange(0,1,.01), np.arange(0,1,.01)
+x, y = np.meshgrid(x_surf, y_surf)
+z = x + y
+ax.plot_surface(x,y,z,cmap=cm.hot)
+```
+
+#### 等高线
+
+```python
+CS = plt.contour(X,Y,Z,10)
+plt.clabel(CS, inline=1,fontsize=10, colors='k')		# 负值用虚线显示
+```
+

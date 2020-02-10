@@ -3,7 +3,7 @@
 '''
 @program: plot.py
 
-@description: 
+@description: 基础绘图
 
 @author: doubleZ
 
