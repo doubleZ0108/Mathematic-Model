@@ -13,7 +13,8 @@ from RegressionAnalysis.DimensionReduction.PrincipleComponentAnalysis import PCA
 import numpy as np
 import matplotlib.pyplot as plt
 
-def WheatGrainClassificationDS():
+
+def WheatGrainClassificationDV():
     A = np.loadtxt("wheat_train_PCA_X.txt")
     B = np.loadtxt("wheat_train_PCA_Y.txt")
     aver = A.mean(axis=0)
@@ -30,4 +31,4 @@ def WheatGrainClassificationDS():
     plt.show()
 
 if __name__ == '__main__':
-    WheatGrainClassificationDS()
+    WheatGrainClassificationDV()
