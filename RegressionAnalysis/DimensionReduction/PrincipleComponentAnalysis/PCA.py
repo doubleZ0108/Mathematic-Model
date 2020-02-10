@@ -29,8 +29,8 @@ class PCA:
         :param k: 主成分数
         :return: 去除噪声后的得分T和载荷P
         """
-        T = self.T[:,:,k]
-        P = self.P[:,:,k]
+        T = self.T[:,:k]
+        P = self.P[:,:k]
         return T,P
 
 if __name__ == '__main__':

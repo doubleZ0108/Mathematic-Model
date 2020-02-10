@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-@program: plot.py
+@program: Plot.py
 
 @description: 基础绘图
 
