@@ -122,5 +122,35 @@ Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=.1)
 
 - FP：预测值为正集，真值为负集的个数
 
+<img src="https://upload-images.jianshu.io/upload_images/12014150-bf8b4f2bbe11137e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png" style="zoom:50%;" />
+
 ------
 
+## MLPClassifier神经网络
+
+```python
+from sklearn.neural_network import MLPClassifier clf=MLPClassifier(hidden_layer_sizes=(100,), alpha=1e-5, random_state=1)
+clf.fit(X_train, y_train)
+score = clf.score(X_test, y_test) #预测得分 
+yhat=clf.predict(X_test) # 预测值 
+prob=clf.predict_proba(X_test) # 预测概率
+```
+
+- `hidden_layer_sizes`: 元组，每一项时一个隐含层的节点数
+- `random_state`: 随机数生成器的状态或种子
+- `alpha`: 正则化项参数
+- `activation`: 激活函数
+  - `identity`: $f(x) = x$
+  - `logistic`: $f(x)=1/(1+exp(-x))$
+  - `tanh`: $f(x)=tanh(x)$
+  - `relu`: $f(x) = max(0,x)$
+- `solver`: 优化权重的算法
+  - `lbfgs`: 拟牛顿法quasi-Newton的优化器（适合小数据）
+  - `sgd`: 随机梯度下降（较大数据，几千个样本以上）
+  - `adam`: 基于随机梯度的优化器（较大数据，几千个样本以上）
+- `learning_rate`: 学习率，用于权重更新，**只有当solver为sgd时使用**
+  - `constant`: 由learning_rate_init给定的恒定学习率
+  - `invscaling`: 随着t使用power_t的逆标度指数不断降低学习率
+    - effective_learning_rate = learning_rate_init / pow(t, power_t)
+  - `adaptive`: 只要训练损耗在下降，就保持学习率为learning_rate_init不变，当连续两次不能降低训练损耗或验证分数停止升高至少to1时，将当前学习率厨艺5
+- `max_iter`: 最大迭代次数
