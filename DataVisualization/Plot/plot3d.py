@@ -70,3 +70,4 @@ def drawSurface_with_Contour():
 
 
 if __name__ == '__main__':
+    drawSurface_with_Contour()
