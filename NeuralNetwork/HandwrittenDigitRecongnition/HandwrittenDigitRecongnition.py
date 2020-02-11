@@ -75,11 +75,11 @@ class ImageDigit:
         :param ii: 名字
         :param jj: 名字
         """
-        w, h = self.im.size
+        w, h = im.size
         xrow, ycol = [], []
         for i in range(w):
             for j in range(h):
-                pixel = self.im.getpixel((i, j))
+                pixel = im.getpixel((i, j))
                 if (pixel < 1):
                     xrow.append(i)
                     ycol.append(j)
@@ -88,7 +88,7 @@ class ImageDigit:
                     # 定义左、上、右、下的坐标
                     box = (min(xrow), min(ycol), max(xrow) + 1, max(ycol) + 1)
                     # 一个矩形区域的拷贝
-                    t = self.im.crop(box).copy()
+                    t = im.crop(box).copy()
                     # 居中
                     xStart, yStart = (32 - xLength) // 2, (32 - yLength) // 2
                     bg = Image.new('RGB', (32, 32), 'white')
@@ -141,10 +141,9 @@ class ImageDigit:
         return features
 
 if __name__ == '__main__':
-    im = Image.open(r'handwritting.png')
-    imgToDigit = ImageDigit(im)
+    imgToDigit = ImageDigit('handwritting.png')
     imgToDigit.histShow()
-    threshold = int(input('请输入背景阈值: '))
+    threshold = 143
     imgToDigit.convert_to_bw(threshold)
     imgToDigit.split()
     imgToDigit.standardizing_to_32_32()
