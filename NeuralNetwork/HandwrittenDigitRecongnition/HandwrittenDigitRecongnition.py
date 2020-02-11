@@ -10,7 +10,6 @@
 @create: 2020/02/11 
 '''
 
-import cv2
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
@@ -67,9 +66,9 @@ class ImageDigit:
         for i in range(10):
             for j in range(6):
                 im = Image.open(self.img_dirname + str(i) + '_' + str(j) + '.bmp')
-                self.standardizing_to_32_32(im, i, j)
+                self._standardizing_to_32_32(im, i, j)
 
-    def standardizing_to_32_32(self, im, ii, jj):
+    def _standardizing_to_32_32(self, im, ii, jj):
         """
         对一个小图像进行标准化
         :param im: 待标准化对小图像
@@ -110,14 +109,14 @@ class ImageDigit:
             outNode[i] = 1.0  # 训练集函数的真值，每种模式对应的位置数字为1
             for j in range(6):
                 im = Image.open(self.img_32_32_dirname + str(i) + '_' + str(j) + '_32_32.bmp')
-                f = self.featureExtract(im)
+                f = self._featureExtract(im)
                 netTrainDataInput.append(f)
                 netTrainDataOutput.append(outNode)
         X = np.array(netTrainDataInput)
         y = np.array(netTrainDataOutput)
         return X, y
 
-    def featureExtract(self, im):
+    def _featureExtract(self, im):
         """
         计算一个小图像的特征向量
         :param im: 小图像
