@@ -75,21 +75,21 @@
 
 - **深度学习 | Deep Learning**
 
-  - Keras深度学习模型 | Keras
+  - [Keras深度学习模型 | Keras](https://github.com/doubleZ0108/Mathematic-Model/tree/master/DeepLearning/Keras)
 
-    > 🌰手写数字图像识别 | Handwritten Digit Recongnition
+    > 🌰[手写数字图像识别 | Handwritten Digit Recongnition](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/HandwrittenDigitRecongnition_DL.ipynb)
     >
-    > 🌰小麦分类 | Classification of wheat
+    > 🌰[小麦分类 | Classification of wheat](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/Wheat/wheat.ipynb)
 
 - **概率建模 | Probability**
 
-  - 朴素贝叶斯概率建模 | NBM
+  - [朴素贝叶斯概率建模 | NBM](https://github.com/doubleZ0108/Mathematic-Model/tree/master/Probability/NaiveBayesianModel)
 
-    > 🌰身高体重等与性别的关系
+    > 🌰[身高体重等与性别的关系](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/Gender/GenderExample.ipynb)
     >
-    > 🌰鸢尾花数据分类
+    > 🌰[鸢尾花数据分类](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/Iris/IrisExample.ipynb)
     >
-    > 🌰网络文本分析
+    > 🌰[网络文本分析](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/NetworkTextAnalysis/NetworkTextAnalysis.ipynb)
 
 ## 项目结构
 
