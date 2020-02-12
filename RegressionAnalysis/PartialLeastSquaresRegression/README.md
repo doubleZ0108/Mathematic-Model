@@ -1,6 +1,10 @@
 # PLSR ｜ 偏最小二乘法
 
-[TOC]
+Table of Contents
+=================
+
+   * [PLSR ｜ 偏最小二乘法](#plsr--偏最小二乘法)
+      * [sklearn库中的PLS](#sklearn库中的pls)
 
 ------
 
