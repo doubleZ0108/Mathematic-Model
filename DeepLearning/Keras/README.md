@@ -1,6 +1,13 @@
 # KERAS深度学习
 
-[TOC]
+Table of Contents
+=================
+
+   * [KERAS深度学习](#keras深度学习)
+      * [模型搭建](#模型搭建)
+      * [激活函数 | activation](#激活函数--activation)
+      * [损失函数 | loss](#损失函数--loss)
+      * [优化函数 | optimizer](#优化函数--optimizer)
 
 ------
 
