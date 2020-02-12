@@ -75,7 +75,7 @@ Table of Contents
 
   - [MLPRegressor神经网络回归 | MLPR](https://github.com/doubleZ0108/Mathematic-Model/tree/master/NeuralNetwork)
 
-    > 🌰[手写数字图像识别 | Handwritten Digit Recongnition](https://github.com/doubleZ0108/Mathematic-Model/tree/master/NeuralNetwork/HandwrittenDigitRecongnition)
+    > 🌰[手写数字图像识别 | Handwritten Digit Recognition](https://github.com/doubleZ0108/Mathematic-Model/tree/master/NeuralNetwork/HandwrittenDigitRecognition)
 
 - **最优化建模 | Optimization**
 
@@ -85,7 +85,7 @@ Table of Contents
 
   - [Keras深度学习模型 | Keras](https://github.com/doubleZ0108/Mathematic-Model/tree/master/DeepLearning/Keras)
 
-    > 🌰[手写数字图像识别 | Handwritten Digit Recongnition](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/HandwrittenDigitRecongnition_DL.ipynb)
+    > 🌰[手写数字图像识别 | Handwritten Digit Recognition](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/HandwrittenDigitRecognition_DL.ipynb)
     >
     > 🌰[小麦分类 | Classification of wheat](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/Wheat/wheat.ipynb)
 
