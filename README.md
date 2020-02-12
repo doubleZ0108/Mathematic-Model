@@ -4,263 +4,80 @@
 
 ------
 
-## 关于作者
+## 关于作者 | About the Auther
 
-| 姓名     | 张喆                |
-| -------- | ------------------- |
-| 学校     | 同济大学            |
-| 联系方式 | doubleZ0108@163.com |
+| 姓名 \| Name       | 张喆 \| doubleZ          |
+| ------------------ | ------------------------ |
+| 学校 \| University | 同济大学 \| Tongji Univ. |
+| 联系方式 \| Email  | doubleZ0108@163.com      |
 
-## 常见基础数学模型
+## 基础数学模型 | Basic Mathematical Model
 
-- **方程**
+- **方程 | Euqation**
 
-  - [夹逼法求解一元高次方程]()
+  - [夹逼法求解一元高次方程 | Squeeze Theorem]()
 
-- **矩阵**
+- **矩阵 | Matrix**
 
-  - 基础运算
-  - SVD分解
+  - 基础运算 | Basic Operation
+  - 奇艺值分解 | SVD
 
-- **遗传算法**
+- **遗传算法 | Genetic Algorithm**
 
-  - 数值遗传算法寻优
+  - 数值遗传算法寻优 | NGA for Optimization
 
-    > 🌰刹车距离与车速关系
+    > 🌰刹车距离与车速关系 | The relationship between braking distance and speed
 
-  - 数值遗传算法NGA
+  - 数值遗传算法 | NGA
 
-- **回归分析**
+- **回归分析 Regression Analysis**
 
-  - 线性回归
-    - 一元线性回归
-    - 多元线性回归
-  - 降维回归
-    - 主成分分析 PCA
-    - 主成分回归 PCR
-  - 偏最小二乘法 PLSR
-  - 交叉验证
+  - 线性回归 | Linear Regression
+    - 一元线性回归 | Unitary Linear Regression
+    - 多元线性回归 | Multiple Linear Regression
+  - 降维回归 | Dimension Reduction
+    - 主成分分析 | PCA
+    - 主成分回归 | PCR
+  - 偏最小二乘法 | PLSR
+  - 交叉验证 | Cross Validation
 
-- **数据可视化**
+- **数据可视化 | Data Visualization**
 
-  - 常见图表
-  - 三维图像
-  - 聚类分析
-    - 无监督
-    - 有监督PLSDA
-    - 概率等高线模拟
+  - 常见图表 | Basic Chart
+  - 三维图像 | 3D Fingure
+  - 聚类分析 | Clustering Analysis
+    - 无监督 | Unsupervised
+    - 有监督 | PLSDA
+    - 概率等高线模拟 | Probability Contour Simulation
 
-  > 🌰鸢尾花数据可视化
+  > 🌰鸢尾花数据可视化 | Iris data visualization
   >
-  > 🌰小麦优、劣颗粒分类聚类可视化
+  > 🌰小麦优、劣颗粒分类聚类可视化 | Visualization of classification and clustering of superior and inferior grains in wheat
 
-- **神经网络**
+- **神经网络 | Neural Network**
 
-  - 神经网络
-  - 非线性分类
-  - MLPClassifier神经网络
-  - MLPRegressor神经网络回归
+  - 神经网络 | Neural Network
+  - 非线性分类 | Nonlinear Classification
+  - MLPClassifier神经网络 | MLPC
+  - MLPRegressor神经网络回归 | MLPR
 
-  > 🌰手写数字图像识别
+  > 🌰手写数字图像识别 | Handwritten Digit Recongnition
 
-- **最优化建模**
+- **最优化建模 | Optimization**
 
-  - 线性规划
+  - 线性规划 | Linear Programming
 
-- **深度学习**
+- **深度学习 | Deep Learning**
 
-  - Keras深度学习模型
+  - Keras深度学习模型 | Keras
 
-- **概率建模**
+- **概率建模 | Probability**
 
-  - 朴素贝叶斯概率建模 NBM
+  - 朴素贝叶斯概率建模 | NBM
 
 ## 项目结构
 
 ```
-.
-├── DataVisualization
-│   ├── Examples
-│   │   ├── Iris
-│   │   │   ├── IrisClassifyDV.ipynb
-│   │   │   ├── IrisContourDV.ipynb
-│   │   │   └── IrisDV_3D.ipynb
-│   │   ├── README.md
-│   │   └── WheatGrainClassification
-│   │       ├── WheatGrainClassificationDV.py
-│   │       ├── wheat_train_PCA_X.txt
-│   │       └── wheat_train_PCA_Y.txt
-│   ├── Plot
-│   │   ├── plot.py
-│   │   ├── plot3d.py
-│   │   └── subplot.py
-│   └── README.md
-├── DeepingLearning
-│   ├── Keras
-│   │   ├── HandwrittenDigitRecongnition_DL.ipynb
-│   │   ├── Wheat
-│   │   │   ├── wheat.ipynb
-│   │   │   ├── wheat_train_PCA_X.txt
-│   │   │   └── wheat_train_PCA_Y.txt
-│   │   └── keras_example.ipynb
-│   └── README.md
-├── Genetic
-│   ├── Individual.py
-│   └── README.md
-├── LinearProgramming
-│   ├── Examples
-│   │   └── example.py
-│   └── README.md
-├── Matrix
-│   └── README.md
-├── NeuralNetwork
-│   ├── HandwrittenDigitRecongnition
-│   │   ├── HandwrittenDigitRecongnition.ipynb
-│   │   ├── HandwrittenDigitRecongnition.py
-│   │   ├── README.md
-│   │   ├── Sklearn.ipynb
-│   │   └── handwritting.png
-│   ├── MLPClassifier.ipynb
-│   ├── MLPRegressor.ipynb
-│   ├── NeuralNetwork.py
-│   ├── NeurallNetwork.ipynb
-│   ├── README.md
-│   └── data
-│       ├── 1x0.txt
-│       └── 1y0.txt
-├── Probability
-│   └── NaiveBayesianModel
-│       ├── Examples
-│       │   ├── Gender
-│       │   │   ├── GenderExample.ipynb
-│       │   │   └── genderData.txt
-│       │   ├── Iris
-│       │   │   └── IrisExample.ipynb
-│       │   └── NetworkTextAnalysis
-│       │       ├── NetworkTextAnalysis.ipynb
-│       │       └── text.txt
-│       └── README.md
-├── README.md
-├── RegressionAnalysis
-│   ├── CrossValidation
-│   │   ├── CrossValidation.py
-│   │   └── README.md
-│   ├── DimensionReduction
-│   │   ├── PrincipleComponentAnalysis
-│   │   │   └── PCA.py
-│   │   ├── PrincipleComponentRegression
-│   │   │   └── PCR.py
-│   │   └── README.md
-│   ├── PartialLeastSquaresRegression
-│   │   ├── PLSR.py
-│   │   └── README.md
-│   ├── README.md
-│   └── UnaryLinearRegression
-│       ├── ULR.py
-│       └── data.txt
-└── SolveEquations
-    ├── Algorithms
-    │   ├── NumericGeneticAlgorithm.py
-    │   ├── OneVarHighOrder.py
-    │   └── __pycache__
-    ├── Examples
-    │   └── Braking Distance Speed
-    │       ├── BrakingDistance_Speed.py
-    │       └── data.txt
-    └── README.md
 
-33 directories, 56 files
-(base) jijideMacBook-Pro:tmp doublez$ tree -N
-.
-├── DataVisualization
-│   ├── Examples
-│   │   ├── Iris
-│   │   │   ├── IrisClassifyDV.ipynb
-│   │   │   ├── IrisContourDV.ipynb
-│   │   │   └── IrisDV_3D.ipynb
-│   │   ├── README.md
-│   │   └── WheatGrainClassification
-│   │       ├── WheatGrainClassificationDV.py
-│   │       ├── wheat_train_PCA_X.txt
-│   │       └── wheat_train_PCA_Y.txt
-│   ├── Plot
-│   │   ├── plot.py
-│   │   ├── plot3d.py
-│   │   └── subplot.py
-│   └── README.md
-├── DeepingLearning
-│   ├── Keras
-│   │   ├── HandwrittenDigitRecongnition_DL.ipynb
-│   │   ├── Wheat
-│   │   │   ├── wheat.ipynb
-│   │   │   ├── wheat_train_PCA_X.txt
-│   │   │   └── wheat_train_PCA_Y.txt
-│   │   └── keras_example.ipynb
-│   └── README.md
-├── Genetic
-│   ├── Individual.py
-│   └── README.md
-├── LinearProgramming
-│   ├── Examples
-│   │   └── example.py
-│   └── README.md
-├── Matrix
-│   └── README.md
-├── NeuralNetwork
-│   ├── HandwrittenDigitRecongnition
-│   │   ├── HandwrittenDigitRecongnition.ipynb
-│   │   ├── HandwrittenDigitRecongnition.py
-│   │   ├── README.md
-│   │   ├── Sklearn.ipynb
-│   │   └── handwritting.png
-│   ├── MLPClassifier.ipynb
-│   ├── MLPRegressor.ipynb
-│   ├── NeuralNetwork.py
-│   ├── NeurallNetwork.ipynb
-│   ├── README.md
-│   └── data
-│       ├── 1x0.txt
-│       └── 1y0.txt
-├── Probability
-│   └── NaiveBayesianModel
-│       ├── Examples
-│       │   ├── Gender
-│       │   │   ├── GenderExample.ipynb
-│       │   │   └── genderData.txt
-│       │   ├── Iris
-│       │   │   └── IrisExample.ipynb
-│       │   └── NetworkTextAnalysis
-│       │       ├── NetworkTextAnalysis.ipynb
-│       │       └── text.txt
-│       └── README.md
-├── README.md
-├── RegressionAnalysis
-│   ├── CrossValidation
-│   │   ├── CrossValidation.py
-│   │   └── README.md
-│   ├── DimensionReduction
-│   │   ├── PrincipleComponentAnalysis
-│   │   │   └── PCA.py
-│   │   ├── PrincipleComponentRegression
-│   │   │   └── PCR.py
-│   │   └── README.md
-│   ├── PartialLeastSquaresRegression
-│   │   ├── PLSR.py
-│   │   └── README.md
-│   ├── README.md
-│   └── UnaryLinearRegression
-│       ├── ULR.py
-│       └── data.txt
-└── SolveEquations
-    ├── Algorithms
-    │   ├── NumericGeneticAlgorithm.py
-    │   └── OneVarHighOrder.py
-    ├── Examples
-    │   └── Braking Distance Speed
-    │       ├── BrakingDistance_Speed.py
-    │       └── data.txt
-    └── README.md
-
-32 directories, 56 files
 ```
 
