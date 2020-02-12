@@ -16,8 +16,7 @@ Table of Contents
 | ----------------------------------------- | ------------------------ |
 | 学校 \| University:school:             | 同济大学 \| Tongji Univ. |
 | 联系方式 \| Email:email:                  | doubleZ0108@163.com      |
-
-
+​	
 
 ## 开发环境 | Development Environment
 
@@ -28,7 +27,7 @@ Table of Contents
 - **语言 | Language**: python
 - **主要依赖 | Dependances**: sklearn, keras, scipy, numpy, matploblib, Axes3D, PIL
 
-
+​	
 
 ## 基础数学模型 | Basic Mathematical Model
 
@@ -110,7 +109,7 @@ Table of Contents
     >
     > 🌰[网络文本分析](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/NetworkTextAnalysis/NetworkTextAnalysis.ipynb)
 
-
+​	
 
 ## 项目结构
 
