@@ -3,7 +3,7 @@
 '''
 @program: Individual.py
 
-@description: 
+@description: 数值遗传算法
 
 @author: doubleZ
 

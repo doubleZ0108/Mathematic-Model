@@ -3,7 +3,7 @@
 '''
 @program: PCR.py
 
-@description: 
+@description: 主成分回归
 
 @author: doubleZ
 
@@ -11,7 +11,7 @@
 '''
 
 import numpy as np
-from DimensionReduction.PrincipleComponentAnalysis import PCA
+from RegressionAnalysis.DimensionReduction.PrincipleComponentAnalysis import PCA
 
 class PCR:
     def __init__(self, X, Y):

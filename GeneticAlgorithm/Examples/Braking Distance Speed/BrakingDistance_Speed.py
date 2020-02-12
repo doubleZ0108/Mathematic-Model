@@ -11,7 +11,7 @@
 '''
 
 import numpy as np
-from SolveEquations.Algorithms.NumericGeneticAlgorithm import NGA
+from GeneticAlgorithm.NumericGeneticAlgorithm import NGA
 
 data = np.loadtxt('data.txt')
 v, d = data[:,0], data[:,1]

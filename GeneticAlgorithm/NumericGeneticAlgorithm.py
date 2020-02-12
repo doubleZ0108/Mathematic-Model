@@ -3,7 +3,7 @@
 '''
 @program: NumericGeneticAlgorithm.py
 
-@description: 遗传算法寻优
+@description: 数值遗传算法寻优
 
 @author: doubleZ
 
@@ -50,5 +50,5 @@ def NGA(fx, *args, max_times=100):
 
 if __name__ == '__main__':
     x0 = 5
-    x_min = Genetic(f1, x0)
-    x_min = Genetic(f2, x0)
+    x_min = NGA(f1, x0)
+    x_min = NGA(f2, x0)
