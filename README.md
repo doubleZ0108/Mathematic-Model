@@ -46,18 +46,18 @@ Table of Contents
 
   - [数值遗传算法寻优 | NGA for Optimization](https://github.com/doubleZ0108/Mathematic-Model/tree/master/GeneticAlgorithm)
 
-    > 🌰[刹车距离与车速关系 | The relationship between braking distance and speed](https://github.com/doubleZ0108/Mathematic-Model/tree/master/GeneticAlgorithm/Examples/Braking%20Distance%20Speed)
+    > 🌰[刹车距离与车速关系 | The relationship between braking distance and speed]([https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/Braking%20Distance%20Speed/BrakingDistance_Speed.py](https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/Braking Distance Speed/BrakingDistance_Speed.py))
 
   - [数值遗传算法 | NGA](https://github.com/doubleZ0108/Mathematic-Model/tree/master/GeneticAlgorithm)
 
 - **回归分析 Regression Analysis**
 
   - [线性回归 | Linear Regression](https://github.com/doubleZ0108/Mathematic-Model/tree/master/RegressionAnalysis)
-    - [一元线性回归 | Unitary Linear Regression](https://github.com/doubleZ0108/Mathematic-Model/tree/master/RegressionAnalysis/UnaryLinearRegression)
+    - [一元线性回归 | Unitary Linear Regression](https://github.com/doubleZ0108/Mathematic-Model/blob/master/RegressionAnalysis/UnaryLinearRegression/ULR.py)
     - [多元线性回归 | Multiple Linear Regression](https://github.com/doubleZ0108/Mathematic-Model/tree/master/RegressionAnalysis)
   - [降维回归 | Dimension Reduction](https://github.com/doubleZ0108/Mathematic-Model/tree/master/RegressionAnalysis/DimensionReduction)
-    - 主成分分析 | PCA
-    - 主成分回归 | PCR
+    - [主成分分析 | PCA](https://github.com/doubleZ0108/Mathematic-Model/blob/master/RegressionAnalysis/DimensionReduction/PrincipleComponentAnalysis/PCA.py)
+    - [主成分回归 | PCR](https://github.com/doubleZ0108/Mathematic-Model/blob/master/RegressionAnalysis/DimensionReduction/PrincipleComponentRegression/PCR.py)
   - [偏最小二乘法 | PLSR](https://github.com/doubleZ0108/Mathematic-Model/tree/master/RegressionAnalysis/PartialLeastSquaresRegression)
   - [交叉验证 | Cross Validation](https://github.com/doubleZ0108/Mathematic-Model/tree/master/RegressionAnalysis/CrossValidation)
 
@@ -75,7 +75,7 @@ Table of Contents
 
     > 🌰[鸢尾花数据可视化 | Iris data visualization](https://github.com/doubleZ0108/Mathematic-Model/tree/master/DataVisualization/Examples/Iris)
     >
-    > 🌰[小麦优、劣颗粒分类聚类可视化 | Visualization of classification and clustering of superior and inferior grains in wheat](https://github.com/doubleZ0108/Mathematic-Model/tree/master/DataVisualization/Examples/WheatGrainClassification)
+    > 🌰[小麦优、劣颗粒分类聚类可视化 | Visualization of classification and clustering of superior and inferior grains in wheat](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DataVisualization/Examples/WheatGrainClassification/WheatGrainClassificationDV.py)
 
 - **神经网络 | Neural Network**
 
@@ -83,9 +83,9 @@ Table of Contents
 
   - [非线性分类 | Nonlinear Classification](https://github.com/doubleZ0108/Mathematic-Model/tree/master/NeuralNetwork)
 
-  - [MLPClassifier神经网络 | MLPC](https://github.com/doubleZ0108/Mathematic-Model/tree/master/NeuralNetwork)
+  - [MLPClassifier神经网络 | MLPC](https://github.com/doubleZ0108/Mathematic-Model/blob/master/NeuralNetwork/MLPClassifier.ipynb)
 
-  - [MLPRegressor神经网络回归 | MLPR](https://github.com/doubleZ0108/Mathematic-Model/tree/master/NeuralNetwork)
+  - [MLPRegressor神经网络回归 | MLPR](https://github.com/doubleZ0108/Mathematic-Model/blob/master/NeuralNetwork/MLPRegressor.ipynb)
 
     > 🌰[手写数字图像识别 | Handwritten Digit Recognition](https://github.com/doubleZ0108/Mathematic-Model/tree/master/NeuralNetwork/HandwrittenDigitRecognition)
 
@@ -97,7 +97,7 @@ Table of Contents
 
   - [Keras深度学习模型 | Keras](https://github.com/doubleZ0108/Mathematic-Model/tree/master/DeepLearning/Keras)
 
-    > 🌰[手写数字图像识别 | Handwritten Digit Recognition](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/HandwrittenDigitRecognition_DL.ipynb)
+    > 🌰[手写数字图像识别 | Handwritten Digit Recognition](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/HandwrittenDigitRecongnition_DL.ipynb)
     >
     > 🌰[小麦分类 | Classification of wheat](https://github.com/doubleZ0108/Mathematic-Model/blob/master/DeepLearning/Keras/Examples/Wheat/wheat.ipynb)
 
