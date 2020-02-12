@@ -12,10 +12,10 @@ Table of Contents
 
 ## 关于作者 | About the Auther
 
-| 姓名 \| Name ​ ​ ​ ​ ​ ​ ​ ​ :bust_in_silhouette: | 张喆 \| doubleZ          |
+| 姓名 \| Name:bust_in_silhouette: | 张喆 \| doubleZ          |
 | ----------------------------------------- | ------------------------ |
-| 学校 \| University ​ ​ :school:             | 同济大学 \| Tongji Univ. |
-| 联系方式 \| Email ​  :email:               | doubleZ0108@163.com      |
+| 学校 \| University:school:             | 同济大学 \| Tongji Univ. |
+| 联系方式 \| Email:email:                  | doubleZ0108@163.com      |
 
 
 
