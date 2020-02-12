@@ -105,11 +105,11 @@ Table of Contents
 
   - [朴素贝叶斯概率建模 | NBM](https://github.com/doubleZ0108/Mathematic-Model/tree/master/Probability/NaiveBayesianModel)
 
-    > 🌰[身高体重等与性别的关系](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/Gender/GenderExample.ipynb)
+    > 🌰[身高体重等与性别的关系 | The relationship between height, weight and gender](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/Gender/GenderExample.ipynb)
     >
-    > 🌰[鸢尾花数据分类](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/Iris/IrisExample.ipynb)
+    > 🌰[鸢尾花数据分类 | Iris data classification](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/Iris/IrisExample.ipynb)
     >
-    > 🌰[网络文本分析](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/NetworkTextAnalysis/NetworkTextAnalysis.ipynb)
+    > 🌰[网络文本分析 | Network text analysis](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/NetworkTextAnalysis/NetworkTextAnalysis.ipynb)
 
 ​	
 
