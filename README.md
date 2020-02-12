@@ -44,24 +44,30 @@
 - **数据可视化 | Data Visualization**
 
   - 常见图表 | Basic Chart
+
   - 三维图像 | 3D Fingure
+
   - 聚类分析 | Clustering Analysis
+
     - 无监督 | Unsupervised
     - 有监督 | PLSDA
     - 概率等高线模拟 | Probability Contour Simulation
 
-  > 🌰鸢尾花数据可视化 | Iris data visualization
-  >
-  > 🌰小麦优、劣颗粒分类聚类可视化 | Visualization of classification and clustering of superior and inferior grains in wheat
+    > 🌰鸢尾花数据可视化 | Iris data visualization
+    >
+    > 🌰小麦优、劣颗粒分类聚类可视化 | Visualization of classification and clustering of superior and inferior grains in wheat
 
 - **神经网络 | Neural Network**
 
   - 神经网络 | Neural Network
+
   - 非线性分类 | Nonlinear Classification
+
   - MLPClassifier神经网络 | MLPC
+
   - MLPRegressor神经网络回归 | MLPR
 
-  > 🌰手写数字图像识别 | Handwritten Digit Recongnition
+    > 🌰手写数字图像识别 | Handwritten Digit Recongnition
 
 - **最优化建模 | Optimization**
 
