@@ -1,6 +1,12 @@
 # 数学模型 | Mathematic Model
 
-[TOC]
+Table of Contents
+=================
+
+   * [数学模型 | Mathematic Model](#数学模型--mathematic-model)
+      * [关于作者 | About the Auther](#关于作者--about-the-auther)
+      * [基础数学模型 | Basic Mathematical Model](#基础数学模型--basic-mathematical-model)
+      * [项目结构](#项目结构)
 
 ------
 
