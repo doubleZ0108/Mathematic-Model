@@ -19,6 +19,17 @@ Table of Contents
 
 
 
+## 开发环境 | Development Environment
+
+- **操作系统 | Operating System**: macOS Catalina 10.15.2
+- **IDE**: 
+  - Jupiter notebook 6.0.1
+  - PyCharm 2019.3.2
+- **语言 | Language**: python
+- **主要依赖 | Dependances**: sklearn, keras, scipy, numpy, matploblib, Axes3D, PIL
+
+
+
 ## 基础数学模型 | Basic Mathematical Model
 
 - **方程 | Euqation**
