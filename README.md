@@ -5,8 +5,9 @@ Table of Contents
 
    * [数学模型 | Mathematic Model](#数学模型--mathematic-model)
       * [关于作者 | About the Auther](#关于作者--about-the-auther)
+      * [开发环境 | Development Environment](#开发环境--development-environment)
       * [基础数学模型 | Basic Mathematical Model](#基础数学模型--basic-mathematical-model)
-      * [项目结构](#项目结构)
+      * [项目结构 | Project Structure](#项目结构--project-structure)
 
 ------
 
@@ -112,7 +113,7 @@ Table of Contents
 
 ​	
 
-## 项目结构
+## 项目结构 | Project Structure
 
 ```
 .
