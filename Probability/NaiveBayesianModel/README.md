@@ -1,6 +1,10 @@
 # 朴素贝叶斯概率建模
 
-[toc]
+Table of Contents
+=================
+
+   * [朴素贝叶斯概率建模](#朴素贝叶斯概率建模)
+      * [Sklearn库GaussianNB](#sklearn库gaussiannb)
 
 ------
 
