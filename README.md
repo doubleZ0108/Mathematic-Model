@@ -6,10 +6,12 @@
 
 ## 关于作者 | About the Auther
 
-| 姓名 \| Name       | 张喆 \| doubleZ          |
-| ------------------ | ------------------------ |
-| 学校 \| University | 同济大学 \| Tongji Univ. |
-| 联系方式 \| Email  | doubleZ0108@163.com      |
+| 姓名 \| Name ​ ​ ​ ​ ​ ​ ​ ​ :bust_in_silhouette: | 张喆 \| doubleZ          |
+| ----------------------------------------- | ------------------------ |
+| 学校 \| University ​ ​ :school:             | 同济大学 \| Tongji Univ. |
+| 联系方式 \| Email ​  :email:               | doubleZ0108@163.com      |
+
+
 
 ## 基础数学模型 | Basic Mathematical Model
 
@@ -91,9 +93,103 @@
     >
     > 🌰[网络文本分析](https://github.com/doubleZ0108/Mathematic-Model/blob/master/Probability/NaiveBayesianModel/Examples/NetworkTextAnalysis/NetworkTextAnalysis.ipynb)
 
+
+
 ## 项目结构
 
 ```
+.
+├── DataVisualization
+│   ├── Examples
+│   │   ├── Iris
+│   │   │   ├── IrisClassifyDV.ipynb
+│   │   │   ├── IrisContourDV.ipynb
+│   │   │   └── IrisDV_3D.ipynb
+│   │   ├── README.md
+│   │   └── WheatGrainClassification
+│   │       ├── WheatGrainClassificationDV.py
+│   │       ├── wheat_train_PCA_X.txt
+│   │       └── wheat_train_PCA_Y.txt
+│   ├── Plot
+│   │   ├── plot.py
+│   │   ├── plot3d.py
+│   │   └── subplot.py
+│   └── README.md
+├── DeepLearning
+│   └── Keras
+│       ├── Examples
+│       │   ├── HandwrittenDigitRecongnition_DL.ipynb
+│       │   └── Wheat
+│       │       ├── wheat.ipynb
+│       │       ├── wheat_train_PCA_X.txt
+│       │       └── wheat_train_PCA_Y.txt
+│       ├── Keras.ipynb
+│       └── README.md
+├── GeneticAlgorithm
+│   ├── Examples
+│   │   └── Braking Distance Speed
+│   │       ├── BrakingDistance_Speed.py
+│   │       └── data.txt
+│   ├── Individual.py
+│   ├── NumericGeneticAlgorithm.py
+│   └── README.md
+├── Matrix
+│   └── README.md
+├── NeuralNetwork
+│   ├── HandwrittenDigitRecongnition
+│   │   ├── HandwrittenDigitRecongnition.ipynb
+│   │   ├── HandwrittenDigitRecongnition.py
+│   │   ├── README.md
+│   │   ├── Sklearn.ipynb
+│   │   └── handwritting.png
+│   ├── MLPClassifier.ipynb
+│   ├── MLPRegressor.ipynb
+│   ├── NeuralNetwork.py
+│   ├── NeurallNetwork.ipynb
+│   ├── README.md
+│   └── data
+│       ├── 1x0.txt
+│       └── 1y0.txt
+├── Optimization
+│   └── LinearProgramming
+│       ├── Examples
+│       │   └── example.py
+│       └── README.md
+├── Probability
+│   └── NaiveBayesianModel
+│       ├── Examples
+│       │   ├── Gender
+│       │   │   ├── GenderExample.ipynb
+│       │   │   └── genderData.txt
+│       │   ├── Iris
+│       │   │   └── IrisExample.ipynb
+│       │   └── NetworkTextAnalysis
+│       │       ├── NetworkTextAnalysis.ipynb
+│       │       └── text.txt
+│       └── README.md
+├── README.md
+├── RegressionAnalysis
+│   ├── CrossValidation
+│   │   ├── CrossValidation.py
+│   │   └── README.md
+│   ├── DimensionReduction
+│   │   ├── PrincipleComponentAnalysis
+│   │   │   └── PCA.py
+│   │   ├── PrincipleComponentRegression
+│   │   │   └── PCR.py
+│   │   └── README.md
+│   ├── PartialLeastSquaresRegression
+│   │   ├── PLSR.py
+│   │   └── README.md
+│   ├── README.md
+│   └── UnaryLinearRegression
+│       ├── ULR.py
+│       └── data.txt
+└── SolveEquations
+    └── SqueezeTheorem
+        ├── OneVarHighOrder.py
+        └── README.md
 
+34 directories, 56 files
 ```
 
