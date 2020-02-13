@@ -46,7 +46,7 @@ Table of Contents
 
   - [数值遗传算法寻优 | NGA for Optimization](https://github.com/doubleZ0108/Mathematic-Model/tree/master/GeneticAlgorithm)
 
-    > 🌰[刹车距离与车速关系 | The relationship between braking distance and speed]([https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/Braking%20Distance%20Speed/BrakingDistance_Speed.py](https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/Braking Distance Speed/BrakingDistance_Speed.py))
+    > 🌰[刹车距离与车速关系 | The relationship between braking distance and speed](https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/Braking%20Distance%20Speed/BrakingDistance_Speed.py](https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/BrakingDistance_Speed/BrakingDistance_Speed.py)
 
   - [数值遗传算法 | NGA](https://github.com/doubleZ0108/Mathematic-Model/tree/master/GeneticAlgorithm)
 
