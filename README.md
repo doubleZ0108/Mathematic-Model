@@ -1,12 +1,5 @@
 # 数学模型 | Mathematic Model
 
-* [关于作者 | About the Auther](#关于作者--about-the-auther)
-* [开发环境 | Development Environment](#开发环境--development-environment)
-* [基础数学模型 | Basic Mathematical Model](#基础数学模型--basic-mathematical-model)
-* [项目结构 | Project Structure](#项目结构--project-structure)
-
-------
-
 ## 关于作者 | About the Auther
 
 | 姓名 \| Name:bust_in_silhouette: | 张喆 \| doubleZ          |
@@ -42,7 +35,7 @@
 
   - [数值遗传算法寻优 | NGA for Optimization](https://github.com/doubleZ0108/Mathematic-Model/tree/master/GeneticAlgorithm)
 
-    > 🌰[刹车距离与车速关系 | The relationship between braking distance and speed](https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/Braking%20Distance%20Speed/BrakingDistance_Speed.py](https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/BrakingDistance_Speed/BrakingDistance_Speed.py)
+    > 🌰[刹车距离与车速关系 | The relationship between braking distance and speed](https://github.com/doubleZ0108/Mathematic-Model/blob/master/GeneticAlgorithm/Examples/Braking%20Distance%20Speed/BrakingDistance_Speed.py)
 
   - [数值遗传算法 | NGA](https://github.com/doubleZ0108/Mathematic-Model/tree/master/GeneticAlgorithm)
 
@@ -109,7 +102,10 @@
 
 ​	
 
-## 项目结构 | Project Structure
+<details>
+
+<summary>项目结构 | Project Structure</summary>
+
 
 ```
 .
@@ -206,4 +202,4 @@
 
 34 directories, 56 files
 ```
-
+</details>
